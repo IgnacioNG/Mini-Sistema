@@ -47,7 +47,6 @@ async function createAlumno(alumno) {
 
     const newAlumno = {
         ...alumno,
-        legajo: alumnos.length + 1,
     }
 
     alumnos.push(newAlumno)
